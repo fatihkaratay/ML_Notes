@@ -346,7 +346,6 @@ plt.plot  ( epochs, val_loss )
 plt.title ('Training and validation loss'   )
 
 ```
-
 By looking at those plots, you can determine if the model is overfitting.
 You can observe this by looking at the training accuracy and validation accuracy.
 Overfitting occurs when a model exposed to too few examples to learn patters that do not generalize to new data.
