@@ -25,6 +25,7 @@ After this step, you should have the unzipped folder contains the training and v
 training dataset: Data that is used to tell the NN that is 'this is what cat or dogs looks like'
 validation dataset: images of cats and dogs that NN will not see as part of the training. You can use this to test
                     how well or how badly it does in evaluating if an image is cats or dogs.
+
 ------------------------------------------------------------------------------------------------------------------------
 
 **STEP-3: (optional) Check to make sure the subdirectories are exist and contains the desired data.**  
@@ -125,6 +126,7 @@ plt.show()
 Please note that the images comes with different sizes. They needed to be adjusted before feeding them to the NN
 we choose 150x150 pixels.
 Those can be done in the fly as seen in the next step
+
 ------------------------------------------------------------------------------------------------------------------------
 
 **STEP-8: Building a small model from scratch to get ~72% accuracy**  
